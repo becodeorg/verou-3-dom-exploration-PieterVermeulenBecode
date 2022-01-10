@@ -10,6 +10,7 @@ function random_rgba() {
 document.body.style.backgroundColor= random_rgba()
 
 
+
 var children = document.body.children;
 console.log(children);
 for (const element of children) {

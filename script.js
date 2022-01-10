@@ -6,5 +6,16 @@ function random_rgba() {
     var o = Math.round, r = Math.random, s = 255;
     return 'rgba(' + o(r()*s) + ',' + o(r()*s) + ',' + o(r()*s) + ',' + r().toFixed(1) + ')';
 }
-var color = random_rgba();
-document.body.style.backgroundColor= color
+
+document.body.style.backgroundColor= random_rgba()
+
+function getChild(parent){
+return parent.firstChild;
+}
+
+
+var children = document.body.children;
+console.log(children);
+for (const element of children) {
+    console.log(element);
+}

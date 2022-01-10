@@ -9,10 +9,6 @@ function random_rgba() {
 
 document.body.style.backgroundColor= random_rgba()
 
-function getChild(parent){
-return parent.firstChild;
-}
-
 
 var children = document.body.children;
 console.log(children);

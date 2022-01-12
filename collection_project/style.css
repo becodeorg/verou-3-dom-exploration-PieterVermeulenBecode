@@ -1,10 +1,15 @@
-.cards{
-width: 50px;
-height: 150px;
-background-color: aliceblue;
+#cardCollection{
+width: 100vw;
+height: auto;
+background-color: rgb(153, 179, 202);
+text-align: center;
+display: flex;
+flex-direction: row;
 }
-card{
-    width: 100vw;
-    height: auto;
-    background-color: white;
+.card{
+    
+    width: 200px;
+    height: 250px;
+    background-color: #9b5151;
+    margin: 10px;
 }

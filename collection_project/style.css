@@ -1,0 +1,10 @@
+.cards{
+width: 50px;
+height: 150px;
+background-color: aliceblue;
+}
+card{
+    width: 100vw;
+    height: auto;
+    background-color: white;
+}

@@ -3,8 +3,8 @@ width: 100vw;
 height: auto;
 background-color: rgb(153, 179, 202);
 text-align: center;
-display: flex;
-flex-direction: row;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .card{
     
@@ -12,4 +12,16 @@ flex-direction: row;
     height: 250px;
     background-color: #9b5151;
     margin: 10px;
+}
+.card:hover{
+    border: black solid 2px;
+}
+.card img {
+    width: 50px;
+    height: 50px;
+}
+.designer{
+    display: flex;
+    flex-direction: row;
+    
 }

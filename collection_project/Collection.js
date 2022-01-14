@@ -97,7 +97,7 @@ const boardGames =
     Title:"Imperial 2030",
     Description:"Use money to manipulate countries into warring with each other for your own profit.",
     Picture:"./imagesCollection/2030.jpg",
-    Score: "9",
+    Score: "10",
     Link: "https://boardgamegeek.com/boardgame/54138/imperial-2030",
     }
 ];

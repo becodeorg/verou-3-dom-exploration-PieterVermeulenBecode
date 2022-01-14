@@ -1,16 +1,28 @@
 
 document.body.onload = addElement(boardGames);
+
+function test(event) {
+  if (event.keyCode === 13) {
+     Search();
+  }
+};
+
 function Search(){
   const form= document.getElementById("Name")
   const kaarten=document.getElementsByTagName("h2")
   
-  for (let kaart of kaarten){
-    
-    if(kaart.textContent!=form.value){
-    let parent =kaart.parentElement;
-    console.log(parent);
-     parent.style.display="none";}
-  }  
+    for (let kaart of kaarten){
+      let parent =kaart.parentElement;
+      
+      if(form.value==""){
+        parent.style.display="block";}else
+      if(kaart.textContent.toLowerCase()==form.value.toLowerCase()){
+      
+      parent.style.display="block";}else{
+        parent.style.display="none";
+      }
+    }  
+  
   
 }
 

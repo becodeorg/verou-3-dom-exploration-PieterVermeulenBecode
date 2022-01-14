@@ -8,12 +8,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 #cardCollection{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 width: 100vw;
 height: auto;
 
-text-align: center;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+justify-content: center;
+
 }
 .card{
     
@@ -57,7 +58,7 @@ a{
     font:inherit;
 }
 
-p{
+p{  padding-left: 5px;
     font-size: small;
     height: 85px;
     text-align: left;

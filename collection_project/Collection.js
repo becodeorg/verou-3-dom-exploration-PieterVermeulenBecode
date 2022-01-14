@@ -3,7 +3,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"1-4",
-    Designer:"Isaac Childres",
+    Designer:"I. Childres",
     Title:"Gloomhaven",
     Description:"Vanquish monsters with strategic cardplay. Fulfill your quest to leave your legacy!",
     Picture:"./imagesCollection/gloomhaven.jpg",
@@ -13,7 +13,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Matt Leacock",
+    Designer:"M. Leacock",
     Title:"Pandemic Legacy",
     Description:"Mutating diseases are spreading around the world - can your team save humanity?",
     Picture:"./imagesCollection/pandemic.png",
@@ -23,7 +23,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Martin Wallace",
+    Designer:"M. Wallace",
     Title:"Brass Birmingham",
     Description:"Build networks, grow industries, and navigate the world of the Industrial Revolution.",
     Picture:"./imagesCollection/birmingham.jpg",
@@ -33,7 +33,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"1-5",
-    Designer:"Jacob Fryxelius",
+    Designer:"J. Fryxelius",
     Title:"Terraforming Mars",
     Description:"Compete with rival CEOs to make Mars habitable and build your corporate empire.",
     Picture:"./imagesCollection/mars.jpg",
@@ -44,7 +44,7 @@ const boardGames =
     GameNr:1,
     PlayerNr:"3-8",
     Designer:"C. Peterson",
-    Title:"Twiligh Imperium 4",
+    Title:"Twilight Imperium 4",
     Description:"Build an intergalactic empire through trade, research, conquest and grand politics.",
     Picture:"./imagesCollection/twilight.jpg",
     Score: "8.3",
@@ -53,7 +53,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Jens Drogemuller",
+    Designer:"J. Drogemuller",
     Title:"Gaia Project",
     Description:"Expand, research, upgrade, and settle the galaxy with one of 14 alien species.",
     Picture:"./imagesCollection/gaia.png",
@@ -63,7 +63,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Corey Konieczka",
+    Designer:"C. Konieczka",
     Title:"Starwars Rebellion",
     Description:"Strike from your hidden base as the Rebels—or find and destroy it as the Empire.",
     Picture:"./imagesCollection/star.jpg",
@@ -73,7 +73,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Eric Reus",
+    Designer:"E. Reus",
     Title:"Spirit Island",
     Description:"Island Spirits join forces using elemental powers to defend their home from invaders.",
     Picture:"./imagesCollection/spirit.png",
@@ -83,7 +83,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-4",
-    Designer:"Alexander Pfister",
+    Designer:"A. Pfister",
     Title:"Great Western Trail",
     Description:"Use strategic outposts and navigate danger as you herd your cattle to Kansas City.",
     Picture:"./imagesCollection/Great.jpg",
@@ -93,7 +93,7 @@ const boardGames =
     {
     GameNr:1,
     PlayerNr:"2-6",
-    Designer:"Mac Gerdts",
+    Designer:"M. Gerdts",
     Title:"Imperial 2030",
     Description:"Use money to manipulate countries into warring with each other for your own profit.",
     Picture:"./imagesCollection/2030.jpg",

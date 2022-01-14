@@ -9,7 +9,7 @@ body{
 }
 #cardCollection{
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+grid-template-columns: repeat(auto-fill,220px);
 width: 100vw;
 height: auto;
 
@@ -57,6 +57,7 @@ a{
     text-decoration: none;
     color: inherit;
     font:inherit;
+    
 }
 
 p{  padding-left: 5px;

@@ -10,16 +10,21 @@ function Search(){
     let parent =kaart.parentElement;
     console.log(parent);
      parent.style.display="none";}
-  }
-  
+  }  
   
 }
+
 function addElement (items) {
     let currentDiv = document.getElementById("cardCollection");
     
     for (let item of items){
+    const newAnker = document.createElement("a");
+    newAnker.href=item.Link;
+    
+    
     const newCard = document.createElement("div");
     newCard.className="card"; //Create a card
+    newAnker.appendChild(newCard);
 
     const newImage = document.createElement("img"); //Create a Image
     newImage.src =item.Picture;    //asign a value to the Image
@@ -41,10 +46,14 @@ function addElement (items) {
     const newDesigner = document.createElement("p"); //Create a Paragraph for the Designer
     newDesigner.textContent=item.Designer;    //asign a value to the Paragraph
     newDesignerDiv.appendChild(newDesigner); //add the Paragraph to the designerdiv
-    
+
     const newParagraphPlayerNr = document.createElement("p"); //Create a Paragraph for the PlayerNr
     newParagraphPlayerNr.textContent=item.PlayerNr;    //asign a value to the Paragraph
     newDesignerDiv.appendChild(newParagraphPlayerNr); //add the Paragraph to the designerdiv
+
+    const newLogo = document.createElement("img"); //Create a Logo
+    newLogo.src ="players.png";    //asign a value to the Logo
+    newDesignerDiv.appendChild(newLogo); //add the Logo to the card
 
     const newParagraphScore = document.createElement("p"); //Create a Paragraph for the score
     newParagraphScore.textContent=item.Score;    //asign a value to the Paragraph
@@ -52,6 +61,6 @@ function addElement (items) {
 
     
 
-    currentDiv.insertAdjacentElement("beforeend",newCard); //add the card to the cardCollection
+    currentDiv.insertAdjacentElement("beforeend",newAnker); //add the card to the cardCollection
     }
   }

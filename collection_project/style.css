@@ -5,6 +5,7 @@
 body{
     background-color: rgb(153, 179, 202);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 #cardCollection{
 width: 100vw;
@@ -22,6 +23,7 @@ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     margin: 10px;
     border: black solid 2px;
     border-radius: 5px;
+    
 }
 .card:hover{
     border: black solid 3px;
@@ -40,8 +42,19 @@ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     
     
 }
+.designer img{
+    width:20px;
+    height: 10px;
+    padding-top: 2px;
+    padding-right: 20px;
+}
 h2{
     font-size: medium;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font:inherit;
 }
 
 p{

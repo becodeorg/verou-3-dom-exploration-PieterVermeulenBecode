@@ -20,6 +20,10 @@ function clickOnSquare(e){
   newListItem.textContent=getElapsedTime()+": Created a new "+e.target.classList[1]+" square.";
   exisList.appendChild(newListItem);
   
+  const displayedsquares = document.querySelectorAll('.displayedsquare')
+for(let displaysquare of displayedsquares){
+  displaysquare.addEventListener('click', clickOnDisplayed)
+}
 
 }
 
@@ -27,6 +31,13 @@ const actionsquares = document.querySelectorAll('.actionsquare')
 for(let actionsquare of actionsquares){
   actionsquare.addEventListener('click', clickOnSquare)
 }
+
+
+
+function clickOnDisplayed(e){
+    alert(e.target.classList[1]);
+}
+
 document.body.addEventListener("keypress",(Event) => {
     console.log(Event);
     const exisList=document.querySelector("ul");

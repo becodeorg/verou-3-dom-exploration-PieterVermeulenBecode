@@ -13,3 +13,5 @@ const h3to2=thirdSection.firstElementChild;
 
 secondSection.prepend(h3to2);
 thirdSection.prepend(h2to3);
+
+thirdSection.parentElement.removeChild(thirdSection);

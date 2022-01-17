@@ -9,21 +9,21 @@ function getElapsedTime(){
 function clickOnSquare(e){
     const exisList=document.querySelector("ul");
     const exisDiv=document.querySelector(".displayedsquare-wrapper")
-  console.log(e.target.classList[1])
-  console.log(getElapsedTime())
+    console.log(e.target.classList[1])
+    console.log(getElapsedTime())
 
-  let newDiv = document.createElement("div"); 
-  newDiv.className = "displayedsquare "+e.target.classList[1];  
-  exisDiv.appendChild(newDiv);
+    let newDiv = document.createElement("div"); 
+    newDiv.className = "displayedsquare "+e.target.classList[1];  
+    exisDiv.appendChild(newDiv);
 
-  let newListItem = document.createElement("li"); 
-  newListItem.textContent=getElapsedTime()+": Created a new "+e.target.classList[1]+" square.";
-  exisList.appendChild(newListItem);
-  
-  const displayedsquares = document.querySelectorAll('.displayedsquare')
-for(let displaysquare of displayedsquares){
-  displaysquare.addEventListener('click', clickOnDisplayed)
-}
+    let newListItem = document.createElement("li"); 
+    newListItem.textContent=getElapsedTime()+": Created a new "+e.target.classList[1]+" square.";
+    exisList.appendChild(newListItem);
+    
+    const displayedsquares = document.querySelectorAll('.displayedsquare')
+    for(let displaysquare of displayedsquares){
+    displaysquare.addEventListener('click', clickOnDisplayed)
+    }
 
 }
 

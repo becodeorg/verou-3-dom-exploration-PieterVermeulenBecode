@@ -14,26 +14,21 @@ body {
     grid-template-columns: repeat(auto-fill, 220px);
     width: 100vw;
     height: auto;
-
     justify-content: center;
     align-content: center;
-
 }
 
 .card {
-
     width: 200px;
     height: 250px;
     background-color: white;
     margin: 10px;
     border: black solid 2px;
     border-radius: 5px;
-
 }
 
 .card:hover {
     border: black solid 3px;
-
 }
 
 .card img {
@@ -47,8 +42,6 @@ body {
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 10px;
-
-
 }
 
 .designer img {
@@ -66,7 +59,6 @@ a {
     text-decoration: none;
     color: inherit;
     font: inherit;
-
 }
 
 p {
